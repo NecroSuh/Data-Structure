@@ -10,9 +10,9 @@ int Sum(int n) {
 int main() {
 	int num;
 
-	printf("ÀÔ·Â: ");
+	printf("ì…ë ¥: ");
 	scanf("%d", &num);
 
-	printf("Ãâ·Â: %d\n",Sum(num));
+	printf("ì¶œë ¥: %d\n",Sum(num));
 	return 0;
 }
