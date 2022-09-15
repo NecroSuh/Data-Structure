@@ -9,6 +9,9 @@ def printPoly(p_x):
         if(coef >= 0):
             polyStr += "+"
             polyStr += str(coef) + "x^" + str(term) + " "
+        else:
+            polyStr += ""
+            polyStr += str(coef) + "x^" + str(term) + " "
 
     return polyStr
 
