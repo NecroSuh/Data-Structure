@@ -38,8 +38,12 @@ def peek():                     # 스택에서 top 위치의 데이터를 확인
         return None
     return stack[top]
 
-## 전역 변수 선언 부분 ##
 SIZE = int(input("스택 크기를 입력하세요 ==> "))
+stack = [None for _ in range(SIZE)]
+top = -1
+
+## 전역 변수 선언 부분 ##
+SIZE = int(input("스택 크기를 입력하세요==> "))
 stack = [None for _ in range(SIZE)]
 top = -1
 
