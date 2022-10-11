@@ -24,7 +24,6 @@ def push(data):
 def pop():                      
     global SIZE, stack, top
     if(isStackEmpty()):
-        print("스택이 비었습니다.")
         return None
     data = stack[top]
     stack[top] = None
@@ -52,7 +51,7 @@ if __name__ == "__main__":
     print("----- 원본 -----")
     for line in lineAry:
         push(line)
-        print(line, end=' ')
+        print(line, end='')
     print()
 
     print("----- 거꾸로 처리된 결과 -----")
@@ -73,4 +72,4 @@ if __name__ == "__main__":
                 break
             ch = miniStack[miniTop]
             miniTop -= 1
-            print(ch, end=' ')
+            print(ch, end='')
